@@ -1,0 +1,28 @@
+.accordion{
+  .accordionItem {
+
+    .accordionButton {
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      color: #888;
+      padding:5px;
+      cursor: pointer;
+      background:none;
+    }
+    .accordionContent{
+        
+        .accordionSubButton{
+            border: none;
+            font-size: 15px;
+            font-weight: 600;
+            color: #888;
+            padding:5px;
+            cursor: pointer;
+            background:none;
+            
+        }
+    }
+   
+  }
+}

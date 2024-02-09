@@ -1,0 +1,35 @@
+.createCategoryWindow {
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block: 10%;
+  gap:20px;
+  .formCategory {
+    // border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    input {
+      width: 300px;
+      border-radius: 5px;
+      padding: 7px;
+      border-color:lightgray;
+            
+    }
+    .buttonCategory{
+        padding: 7px;
+        border-radius: 5px;
+        background-color:lightgray;
+        // color: white;
+        cursor:pointer;
+    }
+  }
+}
